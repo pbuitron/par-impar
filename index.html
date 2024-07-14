@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par - Impar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section class="section">
+        <article>
+            <h1 class="title">Consulta tu <span> Número</span></h1>
+        </article>
+        <article>
+            <div class="form__group field">
+                <input type="input" class="form__field" id="numberInput" placeholder="Ingresa tu número" required="true">
+                <label for="numberInput" class="form__label">Ingresa tu número</label>
+            </div>
+            <button class="btn" type="button" id="checkButton">
+                <strong>CONSULTAR</strong>
+                <div id="container-stars">
+                    <div id="stars"></div>
+                </div>
+                <div id="glow">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </button>
+        </article>
+       
+    </section>
+    <div>
+         <article class="resultado" id="result">
+
+        </article>
+    </div>
+    <script src="main.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
